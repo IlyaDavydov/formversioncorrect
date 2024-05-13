@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="styles.css">
+<script src="file.js" defer></script>
+<title>Title</title>
+<body>
+    <div class="left">
+        <div class="title">
+            <p class="move">Space Beaver Race</p>
+        </div>
+    </div>
+    <div class="right">
+        <h1 class="move">Get started</h1>
+        <h3 class="move">Register now for the Beaver Space Race and challenge the reigning Beaver champion @boburkurwa to win the 10,000 beaver dollars prize</h3>
+        <form action="#" method="post">
+            <div class="info move">
+                <div class="column1">
+                    <input class="textInput firstName" type="text" id="firstName" name="firstName" placeholder="FIRST NAME">
+                    <div class="textError">
+                        <span class="f">Please enter name in the correct format (only english letters and hyphen, maximum 20 characters)</span>
+                    </div>
+                    <input class="textInput email" type="text" id="email" name="email" placeholder="E-MAIL">
+                    <div class="emailError">
+                        <span class="e">Please enter email in the correct format (for example: boburkurwa2003@gmail.com)</span>
+                    </div>
+                    <div class="pas one">
+                        <input type="password" id="password" name="password" placeholder="PASSWORD">
+                        <img id="i1" src="eye_slash_pink.svg">
+                    </div>
+                    <div class="passwordError">
+                        <span class="p">The password must contain at least one uppercase and one lowercase letter, one digit, and be at least 8 characters long</span>
+                    </div>
+                </div>
+                <div class="column2">
+                    <input class="textInput lastName" type="text" id="lastName" name="lastName" placeholder="LAST NAME">
+                    <div class="textError">
+                        <span class="l">Please enter name in the correct format (only english letters and hyphen, maximum 20 characters)</span>
+                    </div>
+                    <select id="country" name="country" placeholder="">
+                        <option value="" disabled selected hidden style="color: rgb(242, 0, 120)">YOUR COUNTRY</option>
+                        <option value="Poland">POLAND</option>
+                        <option value="Germany">GERMANY</option>
+                        <option value="Ukraine">UKRAINE</option>
+                        <option value="Ingria">INGERMANLAND</option>
+                        <option value="Russian">RUSSIA</option>
+                        <option value="Uzbekistan">UZBEKISTAN</option>
+                        <option value="Durov">DU ROVE'S LAND</option>
+                        <option value="Belarus">BELARUS</option>
+                        <option value="Finland">FINLAND</option>
+                        <option value="Finland">ANOTHER COUNTRY</option>
+                    </select>
+                    <div class="just-space">
+                        <span class="space">Please enter email in the correct format (for example: boburkurwa2003@gmail.com)</span>
+                    </div>
+                    <div class="pas two">
+                        <input type="password" id="password2" name="password2" placeholder="CONFIRM PASSWORD">
+                        <img id="i2" src="eye_slash_pink.svg">
+                    </div>
+                    <div class="confirmError">
+                        <span class="c">The password doesn't match, please re-enter it. It should be the same as in the previous field</span>
+                    </div>
+                </div>
+            </div>
+            <button class="move">Register for race</button>
+            <div class="mainError">
+                <span class="b">Something went wrong! Check all fields</span>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
