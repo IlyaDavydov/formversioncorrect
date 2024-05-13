@@ -1,0 +1,26 @@
+This project has been a fantastic opportunity for me to explore the functionality of the HTML form element and various inputs for user interaction.
+A particular challenge was implementing custom validation and styling for the forms, overriding the default browser styles. 
+Additionally, a key goal for me was the design aspect of this project. 
+I utilized neural networks for image generation and experimented with interesting design solutions. Hopefully, the outcome is visually appealing.
+
+Functionality:
+- Page loading animation
+- Styling of inputs on input and when errors occur
+- Show/hide password functionality
+- Select element
+- Form submission if all inputs are correct (even though it goes nowhere)
+- Other design solutions
+
+Visualisation: https://ilyadavydov.github.io/formversioncorrect/
+
+P.S. The theme and the login "boburkurwa2003" are dedicated to my friend, who is also involved in web development. 
+It's a friendly joke, as his name sounds similar to the word "bober" from a well-known meme. 
+Just in case it seems strange :)
+
+
+
+
+
+
+
+
